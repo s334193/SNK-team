@@ -1,0 +1,140 @@
+<!--
+Registration Form
+HIT226
+Date:19/03/2020
+created by-Md zakir hossain
+student id-s334193
+-->
+
+<!--Start of page-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=yes">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <link rel="stylesheet" href="Style_sheet.css">
+  <title>Registration Form</title>
+</head>
+
+<body data-spy="scroll" data-target="#navbar-site" data-offset="80">
+
+
+  <!--Start of Navbar-->
+  <nav id="navbar-site" class="navbar navbar-dark bg-dark navbar-expand-sm fixed-top right">
+  <div class="container">
+  <a class="navbar-brand" href="#">MD ZAKIR HOSSAIN s334193</a>
+
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav ml-auto"> <!--Start container-->
+      <li class="nav-item"><a class="nav-link" href="#login">Login</a></li>
+      <li class="nav-item"><a class="nav-link" href="#form">Register</a></li>
+
+
+    </div>
+    </div>
+</nav>
+
+<br> <br> <br> <br>
+
+<!-- start of form exercise -->
+<br><br>
+
+<a id="login"></a>
+<h1>Login</h1>
+  <div class="container">
+    <h2>Members only Login-</h2>
+    <form action="/action_page.php">
+      <div class="form-group">
+      <div class="p_2">
+        <label for="email">Email:</label>
+        <input type="text" class="input_3" id="text" placeholder="Enter your Email" name="email">
+      </div>
+      <div class="p_2">
+        <label for="pwd">Password:</label>
+        <input type="password" class="input_3" id="pwd" placeholder="Enter your password" name="pwd">
+      </div>
+      <div class="checkbox">
+        <label><input type="checkbox" name="remember"> Remember me</label>
+      </div>
+      <div>
+        <button class="button_0" type="submit">Login</button>
+      </div>
+    </form>
+  </div>
+
+  <!-- end  of form exercise -->
+<br> <br> <br> <br> <br>
+
+<!-- start of form exercise 2-->
+<br><br>
+<a id="form"></a>
+<h1>Registration Form</h1>
+<label class="p_1"> Name:<span class="asterisk">*</span> </label>
+<div>
+  <!--First input option under name-->
+  <input type="text" name="fname" placeholder="First name" class="input_2" required="required">
+  <!--second input option under name-->
+  <input type="text" name="lname" placeholder="Last name" class="input_2" required="required">
+</div>
+<div>
+  <label class="p_1"> Date of Birth <span class="asterisk">*</span></label>
+</div>
+<div>
+  <input type="date" name="date" class="input_2" required="required">
+</div>
+<div>
+  <label class="p_1">Gender: <span class="asterisk">*</span></label>
+
+  <input type="radio" name="gender" value="male"> Male
+
+  <input type="radio" name="gender" value="female"> Female
+
+  <input type="radio" name="gender" value="female"> Other
+</div> <br>
+
+
+<label class="p_1"> Address:<span class="asterisk">*</span> </label>
+<div>
+  <!--input option for address bar-->
+  <input type="text" name="Address " placeholder="Street Name " class="input_2" required="required">
+  <!--input option for address bar-->
+  <input type="text" name="Suburb" placeholder="Suburb" class="input_2" required="required">
+  <!--input option for address bar-->
+  <select class="input_1" required="required">
+    <!--input option for the adress-->
+    <option selected disabled>State</option>
+    <option value="ACT">Australian Capital Territory</option>
+    <!--This source copied from GIt hub (values of slected) -->
+    <option value="NSW">New South Wales</option>
+    <option value="NT ">Northern Territory</option>
+    <option value="QLD">Queensland</option>
+    <option value="SA ">South Australia</option>
+    <option value="TAS">Tasmania</option>
+    <option value="VIC">Victoria</option>
+    <option value="WA ">Western Australia</option>
+  </select>
+
+
+
+  <input type="number" name="Post_code" placeholder="Post code" class="input_2" required="required">
+
+</div>
+<label class="p_1">Phone</label>
+
+<div>
+  <input type="tel" name="Phone_number" placeholder=" (04) XXXX XXXX" class="input_2">
+</div>
+
+<label class="p_1">Email <span class="asterisk">*</span> </label>
+
+<div>
+  <input type="text" name="Email" placeholder="example@gmail.com" class="input_2">
+</div>
+<div>
+  <button class="button_1" type="submit">Register</button>
+</div>
+
+</body>
+</html>
