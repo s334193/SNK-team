@@ -1,0 +1,146 @@
+/* main body*/
+body {
+  padding: ;
+  background-image: linear-gradient(141deg, #9fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+  width: auto;
+  height: auto;
+  margin: auto;
+  font-family: sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+h1 {
+  background-color: absolute;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  color: white;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  text-align: center;
+  max-width: 80%;
+}
+h5 {
+  background-color: absolute;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 10%;
+  padding-bottom: 5%;
+  color: white;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  text-align: center;
+  max-width: 80%;
+}
+/* class for form*/
+.m_1 {
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 10%;
+  margin-bottom: 20%
+}
+
+/* white box in the center*/
+.Middle_box {
+  background: white;
+  width: auto;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  min-width: 265px;
+}
+
+/* Used for designing of label*/
+.p_1 {
+  margin-left: 15px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  font-size: 30px;
+}
+
+.p_2 {
+  margin-left: 10px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+/* Red labels used after label*/
+.asterisk {
+  color: red;
+}
+
+/*Input boxes under the labels from the user*/
+.input_1 {
+  width: 232px;
+  height: 50px;
+  border-radius: 5px;
+  margin-left: 15px;
+  margin-bottom: 15px;
+  background: #fafafa;
+  margin-top: 15px;
+  border-left-width: medium;
+  border-top-width: medium;
+}
+
+.input_2 {
+  width: 232px;
+  height: 50px;
+  border-radius: 5px;
+  margin-left: 15px;
+  margin-bottom: 15px;
+  background: #fafafa;
+  margin-top: 15px;
+}
+
+.input_3 {
+  width: 220px;
+  height: 50px;
+  border-radius: 5px;
+  margin-left: 15px;
+  margin-bottom: 15px;
+  background: #fafafa;
+  margin-top: 15px;
+}
+
+/* ---------Button--------*/
+.button_1 {
+  display: inline-block;
+  line-height: 50px;
+  padding: 0 50px;
+  cursor: pointer;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #black;
+  font-family: inherit;
+  margin-left: 15px;
+  margin-bottom: 15px;
+  background-color: white;
+
+
+}
+
+.button_0 {
+  display: inline-block;
+  line-height: 30px;
+  padding: 0 50px;
+  cursor: pointer;
+  font-size: 10px;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #Red;
+  font-family: inherit;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  background-color: white;
+
+
+}
+
+.button_1:hover
+{
+  opacity: 0.8;
+}

@@ -1,0 +1,75 @@
+p {
+  margin: 0.8em 0;
+  padding: 0;
+}
+
+img {
+  width: 100%;
+  height: 200px;
+  max-height: 200px;
+}
+
+h1 {
+ position: absolute;
+ bottom: 16px;
+ left: 16px;
+ font-size: 1.25em;
+ margin: 0;
+ padding: 1em;
+}
+
+
+.card {
+  display: inline-block;
+  margin: 16px;
+  width: 380px;
+  min-height: 280px;
+  font-size: 16px;
+  background-color: #ffffff;
+  border-radius: 2px;
+  box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.24);
+  border-radius: 5px;
+  margin: 24px; ##this can be a problem in the future if there is any problem with mergin this can be a cause"
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.4);
+}
+
+.card .heading {
+  position: relative;
+  height: 100px;
+  color: White;
+  background-color: #4285f4;
+  border-top-right-radius: 5px;
+  border-top-left-radius:5px;
+}
+
+
+.card .content {
+
+  font-size: 0.875em;
+  padding: 1em;
+
+}
+
+.card .button {
+ border: none;
+ background-color: white;
+ padding: 16px ;
+ text-decoration: none;
+ display: inline-block;
+ font-size: 16px;
+ margin: 4px 2px;
+ margin-left: 15px; ##changed this part to align the button #
+ cursor: pointer;
+ border: 2px solid #4CAF50;
+
+
+}
+
+.card .button:hover {
+  background-color: #4CAF50;
+  color: white;
+
+}
