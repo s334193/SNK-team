@@ -1,0 +1,50 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.background{
+  height: 100%;
+  width: 100%;
+  background-image: url(trees.jpg);
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+}
+
+.form-base{
+  width: 350px;
+  height: 380px;
+  position: relative;
+  margin: 3% auto;
+  background: linear-gradient(to right, #ff9033, #ffe1a0, #ff9033);
+  padding: 7px;
+}
+
+.form-title{
+  top:38px;
+  left:52px;
+  position: absolute;
+  color: brown;
+}
+
+.input-base{
+  top: 100px;
+  left: 98px;
+  position: absolute;
+  width: 300px;
+}
+
+.input-txtbox{
+  margin: 10px 0;
+}
+
+.submit-but{
+  top: 240px;
+  left: 43px;
+  position: absolute;
+  height: 15%;
+  width: 25%;
+  cursor: pointer;
+  display: block;
+}
